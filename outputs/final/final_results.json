@@ -1,0 +1,87 @@
+{
+  "SeasonalNaive_test": {
+    "MAE": 2648.1049596309113,
+    "RMSE": 5804.604398210371,
+    "SMAPE": 77.58034302241435,
+    "MedianAE": 852.0,
+    "WAPE": 55.01011729388019
+  },
+  "MovingAverage_test": {
+    "MAE": 2031.0078060636017,
+    "RMSE": 4400.531112731828,
+    "SMAPE": 67.57432587583074,
+    "MedianAE": 648.6428571428571,
+    "WAPE": 42.190917406807465
+  },
+  "LightGBM_test": {
+    "MAE": 245.25506916164008,
+    "RMSE": 1020.6493177237307,
+    "SMAPE": 40.237688887806726,
+    "MedianAE": 51.365363345060416,
+    "WAPE": 5.094779220299841
+  },
+  "CatBoost_test": {
+    "MAE": 242.58693559984042,
+    "RMSE": 908.6128607327681,
+    "SMAPE": 44.05763780024925,
+    "MedianAE": 103.75837338413965,
+    "WAPE": 5.0393530410403935
+  },
+  "LightGBM_params": {
+    "num_leaves": 127,
+    "learning_rate": 0.02,
+    "n_estimators": 1000,
+    "max_depth": 8,
+    "subsample": 0.9,
+    "colsample_bytree": 0.9
+  },
+  "CatBoost_params": {
+    "depth": 6,
+    "learning_rate": 0.05,
+    "iterations": 600,
+    "l2_leaf_reg": 3
+  },
+  "feature_cols": [
+    "dayofweek",
+    "day",
+    "week",
+    "month",
+    "quarter",
+    "year",
+    "dayofyear",
+    "is_weekend",
+    "is_month_start",
+    "is_month_end",
+    "dow_sin",
+    "dow_cos",
+    "month_sin",
+    "month_cos",
+    "Revenue_lag_1",
+    "Revenue_lag_2",
+    "Revenue_lag_3",
+    "Revenue_lag_7",
+    "Revenue_lag_14",
+    "Revenue_lag_21",
+    "Revenue_lag_28",
+    "Revenue_roll_mean_7",
+    "Revenue_roll_std_7",
+    "Revenue_roll_min_7",
+    "Revenue_roll_max_7",
+    "Revenue_roll_mean_14",
+    "Revenue_roll_std_14",
+    "Revenue_roll_min_14",
+    "Revenue_roll_max_14",
+    "Revenue_roll_mean_28",
+    "Revenue_roll_std_28",
+    "Revenue_roll_min_28",
+    "Revenue_roll_max_28",
+    "is_quarter_start",
+    "is_quarter_end",
+    "is_year_start",
+    "is_year_end",
+    "Revenue_diff_7",
+    "Revenue_diff_28",
+    "outlier_flag_28",
+    "group_id"
+  ]
+}

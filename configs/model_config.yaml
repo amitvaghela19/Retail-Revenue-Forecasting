@@ -1,0 +1,12 @@
+baselines:
+  seasonal_naive: true
+  moving_average: true
+  lightgbm: true
+  catboost: true
+  xgboost: false
+
+deep_models:
+  lstm: true
+  gru: true
+  transformer: true
+  tft: false

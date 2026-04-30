@@ -1,0 +1,15 @@
+raw_data_path: data/raw/Sales.csv
+interim_dir: data/interim
+processed_dir: data/processed
+
+date_col: Date
+target_col: Revenue
+
+group_cols:
+  - Product_Category
+  - Sub_Category
+
+agg_freq: D
+
+drop_duplicate_rows: true
+drop_raw_date_parts_after_validation: true

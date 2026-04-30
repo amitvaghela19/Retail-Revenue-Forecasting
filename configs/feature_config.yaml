@@ -1,0 +1,30 @@
+target_transform: none
+
+calendar_features:
+  - dayofweek
+  - day
+  - week
+  - month
+  - quarter
+  - year
+  - is_weekend
+
+lag_features:
+  - 1
+  - 2
+  - 3
+  - 7
+  - 14
+  - 21
+  - 28
+
+rolling_windows:
+  - 7
+  - 14
+  - 28
+
+rolling_stats:
+  - mean
+  - std
+  - min
+  - max

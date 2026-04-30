@@ -1,0 +1,20 @@
+split:
+  train_ratio: 0.6
+  val_ratio: 0.2
+  test_ratio: 0.2
+
+lookbacks:
+  - 30
+  - 60
+
+horizons:
+  - 7
+  - 30
+
+training:
+  random_seed: 42
+  batch_size: 64
+  epochs: 15
+  patience: 5
+  learning_rate: 0.001
+  num_workers: 0
