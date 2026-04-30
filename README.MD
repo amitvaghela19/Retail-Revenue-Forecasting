@@ -201,19 +201,19 @@ CatBoost outperformed the simple moving-average and seasonal-naive baselines, sh
 
 ### Actual vs Predicted
 
-
+![CatBoost Actual vs Pred](/outputs/final/figures/catboost_actual_vs_pred.png)
 
 This plot shows how CatBoost predictions track actual revenue on the holdout data.
 
 ### Error Distribution
 
-
+![CatBoost Error Distribution](/outputs/final/figures/catboost_error_distribution.png)
 
 This plot helps assess whether the model errors are centered and whether large misses occur frequently.
 
 ### Group-wise MAE
 
-
+![CatBoost Group MAE](/outputs/final/figures/catboost_group_mae.png)
 
 This plot highlights which grouped retail segments are easier or harder to forecast.
 
