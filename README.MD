@@ -237,6 +237,7 @@ pip install -r requirements.txt
 python -m scripts.train_baselines
 python -m scripts.feature_ablation
 python -m scripts.tune_rolling_models
+python -m scripts.train_deep_models
 python -m scripts.final_train_test
 ```
 
