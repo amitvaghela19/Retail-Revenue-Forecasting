@@ -336,18 +336,6 @@ retail-revenue-forecasting/
 - [x] Add deep learning benchmarks
 - [x] Polish repo for GitHub showcase
 
-## Recruiter Notes
-
-This project demonstrates the kinds of skills hiring teams look for in junior data scientists and ML engineers:
-
-- Framing a forecasting problem clearly
-- Building modular and reproducible ML pipelines
-- Preventing data leakage
-- Designing realistic validation strategies
-- Comparing models fairly
-- Translating experimentation into clear technical documentation
-
-It shows more than model training. It shows practical ML judgment, reproducibility, and the ability to structure a project in a way that is easy for collaborators, reviewers, and recruiters to evaluate.
 
 ## Contact
 
