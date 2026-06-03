@@ -9,7 +9,7 @@
 
 > Leakage-free multi-series retail revenue forecasting with gradient boosting, deep learning benchmarks, rolling validation, and final holdout evaluation.
 
-## Executive Summary
+## Executive Summary 
 
 This project builds an end-to-end forecasting system for retail revenue using daily aggregated time series across grouped product segments. The focus is not just model accuracy, but building a forecasting pipeline that is realistic, leakage-free, reproducible, and credible under future data conditions.
 
